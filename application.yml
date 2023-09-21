@@ -10,8 +10,8 @@ server:
 spring:
   datasource:
     url: jdbc:mysql://mysql-petclinic-air2.mysql.database.azure.com:3306/petclinic?useSSL=true
-    username: myadmin
-    password: aksworkshop123!
+    username: mysql_conn
+    azure.passwordless-enabled: true
   sql:
     init:
       schema-locations: classpath*:db/mysql/schema.sql

@@ -26,12 +26,6 @@ spring:
                 azure:
                   eventhubs:
                     namespace: evhns-multicluster-d9604a
-      eventhubs:
-        bindings:
-          consume-in-0:
-            consumer:
-              checkpoint:
-                mode: MANUAL    
       poller:
         initial-delay: 0
         fixed-delay: 1000    

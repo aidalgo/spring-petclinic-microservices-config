@@ -45,7 +45,7 @@ spring:
       # Override configuration with any local property source
       override-none: true
   datasource:
-    url: jdbc:mysql://mysql-petclinic-air2.mysql.database.azure.com:3306/petclinic?useSSL=true
+    url: jdbc:mysql://mysql-multicluster-d9604a.mysql.database.azure.com:3306/petclinic?useSSL=true
     username: mysql_conn
     azure.passwordless-enabled: true
   sql:

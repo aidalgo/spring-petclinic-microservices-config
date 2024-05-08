@@ -9,6 +9,7 @@ zuul:
 
 server:
   port: 8080
+  address: 0.0.0.0
   compression:
     enabled: true
     mime-types: application/json,text/css,application/javascript
